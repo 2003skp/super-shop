@@ -10,7 +10,7 @@ export default async function BorderRadiusDemo() {
   const data = await getFood();
   return (
     <div className="m-20">
-      <h2>Hi Nextjs</h2>
+      <h2>Hi I am Nextjs Developer</h2>
       <Link href="./about">Go About</Link>
       <div className="grid grid-cols-3 gap-3 border-4 rounded-md border-green-600 p-5 ">
         {
