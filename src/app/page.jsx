@@ -1,7 +1,9 @@
+import { cookies } from "next/headers";
 import Image from "next/image";
 import Link from "next/link";
 
 async function getFood() {
+  cookies();
   const response = await fetch("https://www.rakibulhasanrakib.com/api/foods");
   const data = await response.json();
   return data;
